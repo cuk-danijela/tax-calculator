@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
+import Main from '../components/Main';
 import '../css/app.css';
 
 export default class Hello extends Component {
     render() {
         return (
-            <div className="text-primary text-4xl font-bold">
-                Hello from react
+            <div className=''>
+            <Main/>
             </div>
         );
     }
