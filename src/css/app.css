@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+body {
+  background-image: url('../assets/tax.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 30px;
+}
+
+.title-app {
+        font-size: 45px;
+    line-height: 57.06px;
+    font-family: 'Roboto Slab', serif;
+    color: #1e293b;
+    margin-bottom: 30px;
+}
+.title-text {
+    font-size: x-large;
+}
+
+#grossIncome {
+    padding: 13px 16px;
+    width: 20%;
+    min-height: 56px;
+    color: #333;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    word-break: break-word;
+}

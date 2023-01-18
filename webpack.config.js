@@ -47,8 +47,12 @@ module.exports = {
                 test: /\.css$/i,
                 use: ['style-loader', 'css-loader', 'postcss-loader'],
             },
+            { 
+                test: /\.(jpg|png|svg|gif)$/, 
+                type: 'asset/resource', 
+            },
         ],
-        
+
     },
     // Enable importing JS files without specifying their's extenstion -> ADDED IN THIS STEP
     //

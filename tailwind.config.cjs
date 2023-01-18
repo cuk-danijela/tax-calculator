@@ -5,6 +5,10 @@ module.exports = {
             colors: {
                 primary: '#1B73E8',
             },
+            backgroundImage: {
+                'tax': "url('./src/assets/tax.jpg')",
+                
+            }
         },
     },
     plugins: [],
