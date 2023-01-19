@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
 
 body {
-  background-image: url('../assets/tax.jpg');
+  /* background-image: url('../assets/tax.jpg'); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,6 +13,7 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 30px;
+  overflow: hidden;
 }
 
 .title-app {
