@@ -13,5 +13,6 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_TAX_CALCULATOR_26D1E }}'
-          projectId: tax-calculator-26d1e
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_TAX_CALCULATOR_D0A1B }}'
+          projectId: tax-calculator-d0a1b
+
